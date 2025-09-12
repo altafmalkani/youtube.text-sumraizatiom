@@ -378,7 +378,7 @@ def run_chain(llm, docs, map_prompt: PromptTemplate, combine_prompt: PromptTempl
             llm,
             chain_type="map_reduce",
             map_prompt=map_prompt,
-            combine_promise=combine_prompt,
+            combine_prompt=combine_prompt,
         )
 
     try:
